@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+} /* Sternchen spricht alle Element an. Border-box bedeutet, dass die Gesamtbreite mit width definiert wird und sowohl padding als auch border mit einschließt.*/
+
+
+
+
+body {
+	font-family: sans-serif;
+	font-size: 20px;
+	display: block;
+	background-color: #2d353d;
+	color: #d6d6d6;
+}
+
+
+/* Navigation oben*/
+.navigation table {
+	background-color: #9d8f45; /*#c92655*/
+	position: fixed;
+	display: block;
+	width: 100vw;
+	font-size: 95%;
+	text-transform: uppercase;
+	color: #e0e0e0;
+
+}
+
+.navigation a:visited, a:active, a:link  {
+	color: #e0e0e0;
+	text-decoration: none;
+}
+
+.navigation td:hover {
+	background-color: #937f41;
+}
+
+.navigation td {
+
+	padding: 3px 6px 3px 6px;
+	text-align: center;
+	vertical-align: center;
+}
+
+
+/*Container Diskografie*/
+
+.containerDiskografie {
+	max-width: 100%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1vw;
+	margin-bottom: 8vw;
+	background-color: #141d24; /*#3f4a57*/
+}
+
+
+
+.containerDiskografie table {
+	max-width: 70%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.containerDiskografie img {
+	max-width: 100%;
+	height: auto;
+	padding: 1.3vw 0.3vw 0.3vw 0.3vw;
+}
+
+
+.name a:link, a:active, a:visited {
+	color: #cf99c5;
+
+}
+
+.name a:hover {
+	color: #8f6587;
+}
+
+
+.zahl {
+	color: #d6d6d6;
+	padding-bottom: 4%;
+}
+
+.spotify {
+	width: 100%;
+	height: auto;
+	padding: 1.3vw 0.3vw 0.3vw 0.3vw;
+
+}
+
+@media (max-width: 900px) {
+	.containerDiskografie td {
+		padding-left: 0.5px;
+		padding-right: : 0.5px;
+		font-size: 75%;
+	}
+}
+
+@media (max-width: 1300px) {
+	.containerDiskografie iframe {
+		width: 100%;
+		height: 70%;
+		margin-right: auto;
+		margin-right: auto;
+	}
+}
+
+@media (max-width: 1000px) {
+	.containerDiskografie iframe {
+		width: 83%;
+		height: 55%;
+		margin-right: auto;
+		margin-right: auto;
+	}
+}
+
+
+/*Container Geschichte*/
+.containerGeschichte {
+	max-width: 80ch;
+	margin-right: auto;
+	margin-left: auto;
+	mmargin-top: 8vw;
+	margin-bottom: 8vw;
+}
+
+.containerGeschichte img {
+	max-width: 97%;
+	height: auto;
+}
+
+
+/*Container Quellen*/
+.containerQuellen {
+	max-width: 80ch;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10vw;
+	margin-bottom: 8vw;
+}
+
+h3 {
+	font-size: 90%;
+	text-transform: uppercase;
+	color: #d6d6d6;
+}
+
+h4 {
+	font-size: 75%;
+	padding: 0;
+	margin: 0;
+	color: #d6d6d6;
+}
+
+ul {
+	list-style: none;
+}
+
+.containerQuellen a:link {
+	font-size: 60%;
+	color: #cc9fc4;
+}
+
+.containerQuellen a:hover  {
+	text-decoration: none;
+	color: #8f6587;
+} 
+
+
+
+
+
+/*zweite Seite (Diskografie mit Tracklist)*/
+
+.containerDiskografieDetails {
+	max-width: 80%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.name {
+	color: #cf99c5;
+	margin-top: 2vw;
+	font-size: 100%;
+}
+
+
+
+td.tracklist {
+	padding: 0 0 0 8vw;
+	vertical-align: top;
+}
+
+.pfeil {
+	margin-left: 50%;
+	margin-right: auto;
+}
+
+.pfeil img {
+	width: 50px;
+	height: auto;
+}
+
+
+.pfeil img:hover {
+	width: 60px;
+	height: auto;
+}
