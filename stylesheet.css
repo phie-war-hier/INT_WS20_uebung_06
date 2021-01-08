@@ -138,17 +138,19 @@ body {
 	margin-left: auto;
 	margin-top: 10vw;
 	margin-bottom: 8vw;
-	font-size: 60%;
+	font-size: 100%;
+	text-align: left;
 }
 
 h3 {
-	font-size: 140%;
+	
+	font-size: 100%;
 	text-transform: uppercase;
 	color: #d6d6d6;
 }
 
 h4 {
-	font-size: 100%;
+	font-size: 80%;
 	padding: 0;
 	margin: 0;
 	color: #d6d6d6;
@@ -158,14 +160,20 @@ ul {
 	list-style: none;
 }
 
+.containerQuellen p {
+	font-size: 80%;
+	color: #d6d6d6;
+}
 
 .containerQuellen a:link {
 	color: #cc9fc4;
+	font-size: 70%;
 }
 
 .containerQuellen a:hover  {
 	text-decoration: none;
 	color: #8f6587;
+	font-size: 70%;
 } 
 
 
