@@ -2,12 +2,9 @@
   box-sizing: border-box;
 } /* Sternchen spricht alle Element an. Border-box bedeutet, dass die Gesamtbreite mit width definiert wird und sowohl padding als auch border mit einschließt.*/
 
-
-
-
 body {
 	font-family: sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	display: block;
 	background-color: #2d353d;
 	color: #d6d6d6;
@@ -25,7 +22,6 @@ body {
 	color: #e0e0e0;
 
 }
-
 .navigation a:visited, a:active, a:link  {
 	color: #e0e0e0;
 	text-decoration: none;
@@ -36,15 +32,13 @@ body {
 }
 
 .navigation td {
-
 	padding: 3px 6px 3px 6px;
 	text-align: center;
 	vertical-align: center;
 }
 
 
-/*Container Diskografie*/
-
+/*Container Diskografie auf der Hauptseite*/
 .containerDiskografie {
 	max-width: 100%;
 	height: auto;
@@ -52,17 +46,19 @@ body {
 	margin-left: auto;
 	margin-top: 1vw;
 	margin-bottom: 8vw;
-	background-color: #141d24; /*#3f4a57*/
+	background-color: #141d24;
 }
-
-
 
 .containerDiskografie table {
 	max-width: 70%;
 	height: auto;
 	margin-right: auto;
 	margin-left: auto;
+}
 
+.containerDiskografie td {
+	text-align: left;
+	vertical-align: top;
 }
 
 .containerDiskografie img {
@@ -74,7 +70,6 @@ body {
 
 .name a:link, a:active, a:visited {
 	color: #cf99c5;
-
 }
 
 .name a:hover {
@@ -143,16 +138,17 @@ body {
 	margin-left: auto;
 	margin-top: 10vw;
 	margin-bottom: 8vw;
+	font-size: 60%;
 }
 
 h3 {
-	font-size: 90%;
+	font-size: 140%;
 	text-transform: uppercase;
 	color: #d6d6d6;
 }
 
 h4 {
-	font-size: 75%;
+	font-size: 100%;
 	padding: 0;
 	margin: 0;
 	color: #d6d6d6;
@@ -162,8 +158,8 @@ ul {
 	list-style: none;
 }
 
+
 .containerQuellen a:link {
-	font-size: 60%;
 	color: #cc9fc4;
 }
 
@@ -185,14 +181,11 @@ ul {
 	margin-left: auto;
 }
 
-
 .name {
 	color: #cf99c5;
 	margin-top: 2vw;
-	font-size: 100%;
+	font-size: 95%;
 }
-
-
 
 td.tracklist {
 	padding: 0 0 0 8vw;
